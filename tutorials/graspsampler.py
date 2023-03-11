@@ -39,15 +39,17 @@ points, normals, transforms, origins, quaternions, alpha, beta, gamma, standoffs
 
 # points, normals, transforms, roll_angles, standoffs, collisions, qualities_1, qualities_2, type_of_qualities =\
 
+
+
 print(transforms[0])
 print(qualities)
-# graspsampler.grasp_visualize(transform=transforms[0],
-#                         coordinate_frame=True,
-#                         grasp_debug_items=True,
-#                         other_debug_items=True,
-#                         point=points[0])
+graspsampler.grasp_visualize(transform=transforms[0],
+                        coordinate_frame=True,
+                        grasp_debug_items=True,
+                        other_debug_items=True,
+                        point=points[0])
 
-# exit()
+exit()
 
 # points, normals, transforms, roll_angles, standoffs, collisions, qualities_1, qualities_2, type_of_qualities = \
     # graspsampler.perturb_grasp(points[0], normals[0], standoffs[0], roll_angles[0], 2,0.05,0.1)
