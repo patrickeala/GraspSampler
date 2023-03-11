@@ -7,6 +7,7 @@ This repository contains tutorials on how to sample and visualize grasps, render
 <!-- Grasp Definition -->
 
 ## Installation
+GraspSampler was created using Ubuntu 18.04 and pythong 3.8. To install GraspSampler on your local machine follow [these intstructions.](https://github.com/patrickeala/Grasp-Sampler/blob/main/documentation/installation.md)
 
 
 ## Tutorials
