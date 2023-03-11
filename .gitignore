@@ -1,0 +1,93 @@
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+utils/__pycache__/
+tutorials/__pycache__/
+graspsampler/__pycache__/
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+shapenet/
+
+
+#ignore 
+/grasper_venv/
+/octomap
+
+
+#ignore for now
+sample_grasp_dataset/
+sample_grasp_dataset2/
+/shapenet
+gitignore_stuff/
+training_data/
+shapenet/
+grasp_data_generated/
+
+grasp_data/pcls
+mug2/
+test_data2/
+test_data/
+experiment1_pcs/
+experiment1_pcs_backup.zip
+new_data/
+results/
+depth_maps/
+semantic_dataset/
+assets.zip
+
+
+grasp_data/
+assets/
+assets_old/
+force_closure_data_backup_without_tightenning/
+force_closure_data/
+semantic_dataset/
