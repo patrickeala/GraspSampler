@@ -25,7 +25,8 @@ scene.show() # visualize the scene
 print('Each created geometry adds a node to the scene. Remove them if gripper is rotated & translated.')
 
 # NOTE: remove rays and bounding boxes before transformation
-scene.remove_rays(gripper) # remove rays
+# scene.remove_rays(gripper) # remove rays
+scene.remove_rays() # remove rays
 scene.remove_gripper_bb(gripper) # remove bbs
 scene.show() # visualize to see the effect
 

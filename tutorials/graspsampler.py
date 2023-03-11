@@ -1,6 +1,6 @@
 #!/usr/bin/python3.8
 
-# Author: Patrick Eala & Tasbolat Taunyazov
+# Author: Tasbolat Taunyazov & Patrick Eala
 # TUTORIAL 4: Graspsampler and its functions
 
 import numpy as np

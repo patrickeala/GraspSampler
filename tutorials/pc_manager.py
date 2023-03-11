@@ -13,7 +13,7 @@ import trimesh.transformations as tra
 box = Object(filename='assets/sample_files/box000.stl', name='box')
 
 # define pc_manager
-# NOTE: pointcloud manager operats on PyRender scene (Not Trimesh scene)
+# NOTE: pointcloud manager operates on PyRender scene (Not Trimesh scene)
 pc_manager = PointCloudManager(obj_mesh=box.mesh, fit_coefficient=5)
 
 # when object is added, it is placed away to fit to the scene with fit_coeff

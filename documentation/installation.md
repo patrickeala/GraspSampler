@@ -57,6 +57,6 @@ Finally, install python-fcl:
 
 ### Install
 
-Just clone this repository, for now no need to install
+Just clone this repository:
 
-```git clone https://github.com/patrickeala/grasper```
+```git clone https://github.com/patrickeala/grasp-sampler```
