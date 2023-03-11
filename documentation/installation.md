@@ -1,6 +1,6 @@
 This is the installation of the grasp sampler to UBUNTU 18.04 with fresh python 3.8
 
-### Prerequisits
+### Prerequisites
 Make sure that core packages are installed
 
 ```pip install numpy

@@ -1,5 +1,3 @@
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -55,8 +53,6 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-shapenet/
-
 
 #ignore 
 /grasper_venv/
@@ -66,7 +62,6 @@ shapenet/
 #ignore for now
 sample_grasp_dataset/
 sample_grasp_dataset2/
-/shapenet
 gitignore_stuff/
 training_data/
 shapenet/
