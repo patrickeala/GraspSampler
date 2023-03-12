@@ -19,7 +19,7 @@ pc_manager = PointCloudManager(obj_mesh=box.mesh, fit_coefficient=5)
 # when object is added, it is placed away to fit to the scene with fit_coeff
 pc_manager.update_object(obj_mesh=box.mesh)
 pc_manager.set_obj_pose(np.eye(4), adjust_object_to_fit=True)
-pc_manager.view_scene()
+# pc_manager.view_scene()
 
 import time
 
@@ -37,6 +37,7 @@ print('pc stat:')
 print(pc.min(), pc.max(), pc.mean())
 
 pc_manager.view_pointcloud(pc)
+
 
 # rotate object
 pc_manager.update_object(obj_mesh=box.mesh)
