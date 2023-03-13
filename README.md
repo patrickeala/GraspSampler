@@ -1,7 +1,7 @@
 # GraspSampler
-GraspSampler is a project that enables you to efficiently sample millions of parallel-jaw grasps around a target object object point cloud. One can quickly generate a dataset that contains numerous grasps and their quality scores.
+GraspSampler is a library that performs efficient sampling of millions of parallel-jaw grasps around a target object object. One can quickly generate a dataset that contains numerous grasps and their quality scores.
 
-This repository contains tutorials on how to sample and visualize grasps, render object point clouds, and a sample of the grasp dataset.
+This library supports visualization of grasps, grippers and objects, rendering of 3D point clouds, and efficient sampling of parallel-jaw grasps. The tutorials show examples using a Franka-Emika Gripper and a target object.
 
 
 <!-- Grasp Definition -->
