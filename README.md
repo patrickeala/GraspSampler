@@ -1,4 +1,4 @@
-![](documentation/pictures/graspsampler.png)
+![](documentation/pictures/graspsampler_cover.png)
 # GraspSampler
 GraspSampler is a library that performs efficient sampling of millions of parallel-jaw grasps around a target object object. One can quickly generate a dataset that contains numerous grasps and their quality scores.
 
