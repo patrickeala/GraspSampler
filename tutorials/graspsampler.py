@@ -33,7 +33,7 @@ graspsampler.update_object(obj_filename='assets/sample_files/box000.stl', name='
 
 
 # perturb grasp
-number_of_grasps = 10
+number_of_grasps = 1000
 points, normals, transforms, origins, quaternions, alpha, beta, gamma, standoffs, qualities =\
      graspsampler.sample_grasps(number_of_grasps=number_of_grasps, silent=True)
 
@@ -43,11 +43,14 @@ points, normals, transforms, origins, quaternions, alpha, beta, gamma, standoffs
 
 print(transforms[0])
 print(qualities)
-graspsampler.grasp_visualize(transform=transforms[0],
+idx = np.argsort(qualities)[-1]
+print(idx)
+# exit()
+graspsampler.grasp_visualize(transform=transforms[idx],
                         coordinate_frame=True,
                         grasp_debug_items=True,
                         other_debug_items=True,
-                        point=points[0])
+                        point=points[idx])
 
 exit()
 
@@ -94,6 +97,7 @@ exit()
 pc, transferred_pose, camera_pose = graspsampler.get_pc(full_pc=True)
 
 graspsampler.view_pc(pc)
+exit()
 # graspsampler.update_object(obj_filename='assets/sample_files/box000.stl', name='box')
 cat_id = "03261776"
 # id = "7a4619d2240ac470620d74c38ad3f68f"
