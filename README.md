@@ -1,6 +1,6 @@
 ![](documentation/pictures/graspsampler_cover.png)
 # GraspSampler
-GraspSampler is a library that performs efficient sampling of millions of parallel-jaw grasps around a target object object. One can quickly generate a dataset that contains numerous grasps and their quality scores.
+GraspSampler is a library that performs efficient sampling of millions of parallel-jaw grasps around a target object object. One can quickly generate a dataset that contains numerous grasps and their quality scores. The project [GraspFlow](https://github.com/tasbolat1/graspflow) used GraspSampler to sample numerous grasps and tested them using the grasping simulation [IsaacGymGrasp](https://github.com/patrickeala/isaacgymgrasp).
 
 This library supports visualization of grasps, grippers and objects, rendering of 3D point clouds, and efficient sampling of parallel-jaw grasps. The tutorials show examples using a Franka-Emika Gripper and a target object.
 
